@@ -1,8 +1,22 @@
 # To fetch 1 exp use this command:
 
+Run them one at a time.
+Step 1
+You're already in:
+C:\Users\NISHANT\OneDrive\Documents\OneDrive\Desktop\New folder
+
+Run:
 git clone --filter=blob:none --sparse https://github.com/Zemse-Nishant-Sunil/sbl-practical-advanced-web-technology.git
+
+Wait for it to finish.
+Step 2
+Then run:
 cd sbl-practical-advanced-web-technology
-git sparse-checkout set exp05-Create-a-Star-Rating-System-using-jQuery 
+
+Step 3
+Then run:
+git sparse-checkout set exp05-Create-a-Star-Rating-System-using-jQuery
+
 # instead of exp05 you can have any exp name there
 
 
