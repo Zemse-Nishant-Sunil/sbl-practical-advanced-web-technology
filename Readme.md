@@ -1,5 +1,12 @@
-# Advanced Web Technology - Practical Programs
+# To fetch 1 exp use this command:
 
+git clone --filter=blob:none --sparse https://github.com/Zemse-Nishant-Sunil/sbl-practical-advanced-web-technology.git
+cd sbl-practical-advanced-web-technology
+git sparse-checkout set exp05-Create-a-Star-Rating-System-using-jQuery 
+# instead of exp05 you can have any exp name there
+
+
+# Advanced Web Technology - Practical Programs
 This repository contains the practical programs performed for the
 Advanced Web Technology laboratory.
 
