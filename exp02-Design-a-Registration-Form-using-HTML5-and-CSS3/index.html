@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Password:</label>
+        <input type="password" name="password" required>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+
+        <label>Gender:</label>
+
+        <div>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+
+        <label>Course:</label>
+        <select>
+            <option>Computer Engineering</option>
+            <option>Information Technology</option>
+            <option>Electronics</option>
+        </select>
+
+        <label>
+            <input type="checkbox" required>
+            I agree to the terms and conditions
+        </label>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
